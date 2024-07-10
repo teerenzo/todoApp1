@@ -8,6 +8,7 @@
 	<form:input type="text" path="description" required="required"/>
 	<form:errors path="description" cssClass="text-warning"/>
 </fieldset>
+<form:input type="hidden" path="id" />
 <fieldset class="mb-3">				
 	<form:label path="targetDate">Target Date</form:label>
 	<form:input type="text" path="targetDate" required="required"/>
